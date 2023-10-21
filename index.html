@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodepenClone</title>
+    <script src="https://kit.fontawesome.com/a7c33fc444.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i>HTML</label>
+            <textarea id="html" onkeyup="run()"></textarea>
+            
+            <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea id="css" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-square-js"></i>JavaScript</label>
+            <textarea id="js" onkeyup="run()"></textarea>
+            
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-code"></i>Output</label>
+            <iframe id="output">
+
+            </iframe>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
